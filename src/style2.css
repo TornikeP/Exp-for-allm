@@ -14,8 +14,8 @@ body {
 
 .card {
     width: clamp(150px, 95vw, 250px);
-    box-shadow: 0 0 .5rem rgba(255, 0, 0, 1);
-    outline: 2px solid rgba(255, 0, 0, .6);
+    box-shadow: 0 0 .5rem rgba(117, 156, 189, 0.6);
+    outline: 2px solid rgba(117, 156, 189, 0.6);
     overflow: hidden;
     color: #fff;
     cursor: pointer;
@@ -89,13 +89,13 @@ body {
     background-color: transparent;
     border: none;
     outline: none;
-    border: 2px solid rgba(255, 0, 0, .6);
+    border: 2px solid rgba(117, 156, 189, 0.6);
     color: #fff;
 }
 .search button {
     cursor: pointer;
 }
-.search button:hover { background-color: rgba(255, 0, 0, .6); }
+.search button:hover { background-color: rgba(117, 156, 189, 0.6); }
 .search button:active { transform: scale(.9); }
 
 .popup-container {
@@ -139,8 +139,8 @@ body {
     height: 400px;
     overflow: hidden;
     border-radius: .5rem;
-    box-shadow: 0 0 .5rem rgba(255, 0, 0, 1);
-    border: 1px solid rgba(255, 0, 0, 1);
+    box-shadow: 0 0 .5rem rgba(117, 156, 189, 0.6);
+    border: 1px solid rgba(117, 156, 189, 0.6);
 }
 .poster-img img {
     width: 100%;
@@ -150,8 +150,8 @@ body {
 .single-info-container { width: 200px; }
 .right > *:not(h1) { margin: 1rem 0; }
 .trailer iframe {
-    border: 2px solid rgba(255, 0, 0, 1);
-    box-shadow: 0 0 .5rem rgba(255, 0, 0, 1);
+    border: 2px solid rgba(117, 156, 189, 0.6);
+    box-shadow: 0 0 .5rem rgba(117, 156, 189, 0.6);
     border-radius: .5rem;
     max-width: 400px;
     width: 100%;
@@ -202,6 +202,7 @@ body {
     position: relative;
     margin: auto;
     box-shadow: 0 3px 20px rgba(117, 156, 189, 0.6);
+    border: 2px solid rgba(117, 156, 189, 0.6);
   }
   
   /* Hide the images by default */
