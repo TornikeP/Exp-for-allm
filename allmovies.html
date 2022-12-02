@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,57 +10,59 @@
     <link rel="stylesheet" href="src/footerstyle.css">
     <title>Movieapp</title>
 </head>
+
 <body>
 
-        <div class="header">
-            <nav>
-                <div class="logo">
-                    <img decoding="async" src="src/img/cinema.jpg" alt="Logo Image">
-                </div>
-                <div class="hamburger">
-                    <div class="bars1"></div>
-                    <div class="bars2"></div>
-                    <div class="bars3"></div>
-                </div>
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="favorites.html">Favorites</a></li>
-                    <li><a href="allmovies.html">All Movies</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="#about">About Us</a></li>
-                </ul>
-            </nav>
-        </div>
-        
-        <div class="container">
-            <div class="search">
-                <input type="text" placeholder="Search Movie...">
-                <button>Search</button>
+    <div class="header">
+        <nav>
+            <div class="logo">
+                <img decoding="async" src="src/img/cinema.jpg" alt="Logo Image">
             </div>
+            <div class="hamburger">
+                <div class="bars1"></div>
+                <div class="bars2"></div>
+                <div class="bars3"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="favorites.html">Favorites</a></li>
+                <li><a href="allmovies.html">All Movies</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </nav>
+    </div>
 
 
-            
-
-            </div>
-            <div class="movies-container trending">
-                <h1>All Tranding Movies</h1>
-                <div class="movies-grid">
-                   
-                </div>
-            </div>
-        </div>
-    
-        <div class="popup-container">
-           
+    <!-- კონტეინერი , იწყება სერჩით -->
+    <div class="container">
+        <div class="search">
+            <input type="text" placeholder="Search Movie...">
+            <button>Search</button>
         </div>
 
-        <div class="movies-container favorites">
-            <h1></h1>
-            <div class="movies-grid">
-             
-            </div>
 
-        <footer id="about" class="footer-distributed" >
+        <!-- გვერდისთვის ჯავასკრიპტიდან ვიძახებ ტოპ20 ტრენდულ ფილმს -->
+    </div>
+    <div class="movies-container trending">
+        <h1>All Tranding Movies</h1>
+        <div class="movies-grid">
+
+        </div>
+    </div>
+    </div>
+
+
+    <!-- პოპაპ ფილმის დეტალურ აღწერაზე გადასასვლელად          -->
+    <div class="popup-container"></div>
+
+    <div class="movies-container favorites">
+        <h1></h1>
+        <div class="movies-grid"></div>
+
+
+        <!-- ფუტერი იგივე რაც მეინზეა -->
+        <footer id="about" class="footer-distributed">
             <div class="footer-left">
                 <h3>Company<span>logo</span></h3>
                 <p class="footer-links">
@@ -88,12 +91,12 @@
             <div class="footer-right">
                 <p class="footer-company-about">
                     <span>About the company</span>
-                    მოკვვდი ამოვწყდი
+                    MovieAppC
                 </p>
                 <div class="footer-icons">
-                    <img class="footer_logos"src="src/img/facebook logo.jpg" alt="">
-                    <img class="footer_logos"src="src/img/twitter.jpg" alt="">
-                    <img class="footer_logos"src="src/img/github-logo.jpg" alt="">
+                    <img class="footer_logos" src="src/img/facebook logo.jpg" alt="">
+                    <img class="footer_logos" src="src/img/twitter.jpg" alt="">
+                    <img class="footer_logos" src="src/img/github-logo.jpg" alt="">
                 </div>
             </div>
         </footer>
@@ -101,4 +104,5 @@
         <script src="src/script.js"></script>
 
 </body>
+
 </html>
